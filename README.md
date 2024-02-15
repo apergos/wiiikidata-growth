@@ -8,9 +8,9 @@ this, lucky you.
 To use:
 
 Be on a linux system with standard utils in the usual places (cat, sed, etc)
-Have ** python(3) ** and ** gnuplot ** installed and in your path
+Have **python(3)** and **gnuplot** installed and in your path
 Run the command
-  ** bash ./generate-graph.sh **
+  **bash ./generate-graph.sh**
 Be patient, it has to ask the servers for a lot of revision counts. Wikidata is BIG.
 Collect the graph from where the script tells you, once it is done.
 
