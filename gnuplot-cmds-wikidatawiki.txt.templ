@@ -1,0 +1,15 @@
+set title "Wikidata revisions growth"
+unset multiplot
+set key off
+set xdata time
+set style data lines  
+set term png size 1024,640
+set timefmt "%Y-%m-%dT%H:%M:%SZ"
+set format x "%Y-%m\n%H:%M"
+set xlabel "Date"
+set ylabel "Revisions" 
+set autoscale y  
+set autoscale x
+set xrange ["2012-10-25T15:50:18Z":"ENDRANGE"]
+set output "OUTPATH"
+plot "INFILE" using 2:1 w lp pointtype 7 pointsize 1 lc rgb "#cc6600"
